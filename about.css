@@ -1,0 +1,164 @@
+#abody {
+    /* background-color: #ff0000; */
+    background-image: url(../imgs/breakfast/bread-4965907_1280.jpg);
+    /* height: 100vh; */
+    width: 100%;
+    background-position: center;
+    background-position-x: top;
+    background-size: cover;
+    /* display: flex; */
+    /* opacity: 50%; */
+}
+
+.fle {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+#abody .para {
+    opacity: 100%;
+}
+
+.para h3 {
+    color: rgb(165, 109, 6);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.parabox1 h3 {
+    color: rgb(165, 109, 6);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.para p {
+
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.parabox1 p {
+
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.box h3 {
+    text-align: center;
+}
+
+.parabox1 h3 {
+    text-align: center;
+}
+
+.box p {
+    padding-left: 120px;
+}
+
+.parabox1 p {
+    padding-left: 120px;
+}
+
+.box {
+    height: 300px;
+    background-color: #ffffff9f;
+    /* opacity: 10%; */
+    width: 600px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.658);
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin: 15px 0;
+    transition: 0.2 ease;
+}
+
+.box :hover {
+    box-shadow: 20px 20px 30px #e49d0452;
+}
+
+.parabox1 {
+    height: 300px;
+    background-color: #ffffff9f;
+    /* opacity: 10%; */
+    width: 600px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.363);
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin: 15px 0;
+    transition: 0.2 ease;
+}
+
+.parabox1 :hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.473);
+}
+
+footer {
+    display: flex;
+    background-color: orange;
+    flex-wrap: wrap;
+    padding: 40px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+ }
+
+ footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+ }
+
+ footer .logo {
+    margin-bottom: 30px;
+ }
+
+ footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+ }
+
+ footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+ }
+
+ footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+ }
+
+ footer .follow {
+    margin-top: 20px;
+
+ }
+
+ footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+ }
+
+ footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+ }
+
+ footer .install img {
+    margin: 10px 0 15px 0;
+ }
+
+ footer .follow i:hover,
+ footer a:hover {
+    color: #088178;
+ }
+
+ footer .copyright {
+    width: 100%;
+    text-align: center;
+ }

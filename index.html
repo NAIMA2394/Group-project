@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagalee Joints</title>
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="street-logo.png" alt="logo" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Aboutus.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services/index.html">Menu</a></li>
+                <li><a href="../cart.html"><img width="30px" src="../imgs/icons/cart2.png" alt="images" width="100px"></a></li>
+                <a href="#" id="close"><i class="closeb"><img src="imgs\icons\image.png" alt="" width="30px"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><img src="imgs\icons\cart2.png" alt="images" width="40px"></a>
+            <i class="menu"><img id="bar" src="imgs\menu.png" alt="" width="40px"></i>
+        </div>
+    </section>
+
+    <section id="bodyy">
+        <section id="all" class="content-p1">
+            <div class="div">
+                <div class="last">
+                <div>
+                    <strong>
+                        <p class="pa">Cook Like a Pro with <br>Our <span>Easy</span> and <span>Tasty</span> <br>Recipes</p>
+                    </strong>
+                </div>
+                <div id="all">
+                    <img src="imgs\Chef.jpeg" alt="" width="170px">
+                </div>
+            </div>
+                <div  style="width: 80%;" class="scroll">
+                    <marquee bgcolor="#fff" loop="20" scrollamount="10" width="">
+                        <img class="image1" height="350" width="500" src="imgs/snacks/eggrols.jpg" alt=".">
+                        <img class="image2" height="350" width="500" src="imgs/snacks/frenchfries.jpg" alt=".">
+                        <img class="image4" height="350" width="500" src="imgs/lunch/fried rice.jpg" alt=".">
+                        <img class="image5" height="350" width="500" src="imgs/lunch/food-3228057_1280.jpg" alt=".">
+                        <img class="image6" height="350" width="500" src="imgs/snacks/bowl-1842294_1280.jpg" alt=".">
+                        <img class="image3" height="350" width="500" src="imgs/lunch/Fish.jpg" alt=".">
+                    </marquee>
+                </div>
+            </div>
+            <button class="normal">Our delicacies</button>
+        </section>
+    </section>
+
+   
+    <footer class="section-p1">
+        <div class="col">
+            <h4>contact</h4>
+            <p><strong>Address:</strong> 562 Wellington Road, Street 32, san Francisco</p>
+            <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>follow Us</h4>
+                <div classs="icon">
+                    <i class="fab fa-facebook-f"><img src="imgs\icons\facebook.png" alt="" width="15px"></i>
+                    <i class="fab fa-twitter"><img src="imgs\icons\instagram.png" alt="" width="15px"></i>
+                    <i class="fab fa-instagram"><img src="imgs\icons\tiktok.png" alt="" width="15px"></i>
+                    <i class="fab fa-pininterest"><img src="imgs\icons\youtube.png" alt="" width="15px"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Appstore or Google play store</p>
+            <div class="row">
+                <img src="imgs/pay/app.jpg" alt="">
+                <img src="imgs/pay/play.jpg" alt="">
+            </div>
+            <p>Secure Payment Gateways</p>
+            <img src="imgs/pay/pay.png" alt="">
+        </div>
+    </footer>
+</body>
+ <script>
+    const menu = document.getElementById('menu');
+    const close = document.getElementById('close');
+    const nav = document.getElementById('navbar');
+
+    if(bar) {
+        bar.addEventListener('click', () => {
+            nav.classList.add('active');
+        })
+    }
+    if(close) {
+        close.addEventListener('click', () => {
+            nav.classList.remove('active');
+        })
+    }
+ </script>
+</html>
+ 
